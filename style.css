@@ -1,0 +1,48 @@
+@charset "utf-8";
+body { margin:0; padding:0; width:100%;}
+html { padding:0; margin:0;}
+
+/* main */
+.main {width:100%; padding:0; margin:0 auto; background: #ebebeb; }
+
+/********** header **********/
+.header { background:#e1ecef; padding:0; margin:0 auto; }
+
+/********** block index **********/
+.body { margin:0; padding:0 0 20px 0;}
+.body_resize { width:954px; margin:0 auto; padding:0 15px; border:1px solid #d4d4d4; background:#eee;}
+.body_resize h2 { font:normal 20px Arial, Helvetica, sans-serif; color:#282828; padding:5px 5px; margin:0; border-bottom:1px solid #dfdfdf;}
+.body_resize h3 { font:normal 20px Arial, Helvetica, sans-serif; color:#282828; padding:5px 5px; margin:0;}
+.body_resize h2 span { font:normal 11px Arial, Helvetica, sans-serif; color:#819e9c; padding:5px 0; margin:0;}
+.body_resize p { font:normal 12px Arial, Helvetica, sans-serif; color:#747474; padding:10px 5px; margin:0; line-height:1.8em;}
+.body_resize p span { color:#819e9c;}
+.body_resize a { color:#ea3900; text-decoration: underline;}
+#contactform .comment ul { list-style:none; margin:0 0 0 20px; padding:10px 0 20px 0;}
+#contactform .comment li { left no-repeat; padding:2px 20px; margin:0; font: normal 12px Arial, Helvetica, sans-serif; color:#5c8783; line-height:1.8em;}
+.body_resize img { float:left; margin:20px 10px; padding:0;}
+.body_resize img.floated { float:left; margin:10px 5px; padding:0;}
+.right  { width:325px; float:right; margin:0; padding:10px 10px;} 
+.comment { width:565px; float:left; margin:0; padding:10px 10px;} 
+.blog { width:280px; float:left; margin:0; padding:10px;}
+/********** contact form **********/
+#contactform { margin:0; padding:5px 10px;}
+#contactform * { color:#F;}
+#contactform ol { margin:0; padding:0; list-style:none;}
+#contactform li { margin:0; padding:0; background:none; border:none; display:block;}
+#contactform li.buttons { margin:5px 0 5px 0;}
+#contactform label { margin:0; width:110px; display:block; padding:10px 0; color:#1c1c1c; font: bold 13px Arial, Helvetica, sans-serif; text-transform:capitalize; float:left;}
+#contactform label span { color:#F00;}
+#contactform input.text { width:380px; border:1px solid #d4d4d4; margin:10px 0; padding:5px 2px; height:16px; background:#f2f2f2; float:left;}
+#contactform textarea { width:380px; border:1px solid #d4d4d4; margin:10px 0; padding:2px; background:#f2f2f2; float:left;}
+#contactform li.buttons input { padding:3px 0 3px 380px; margin:0; border:0; color:#FFF; float:left;}
+p.response { text-align:center; color:#F00; font: normal 11px  Georgia, "Times New Roman", Times, serif; line-height:1.8em; width:auto;}
+/*************footer**********/
+.footer_resize { width:960px; margin:0 auto; padding:10px 0 0 0; }
+.footer {padding:0;  margin:0; height:55px; background:#d7d7d7 url(images/footer_bg.gif) repeat-x;}
+.footer p { font:normal 11px  Arial, Helvetica, sans-serif; color:#6d6d6d;}
+.footer a { font:normal 12px Arial, Helvetica, sans-serif; color:#6d6d6d; text-decoration:none; padding:5px; margin:0;}
+.footer p.leftt { text-align:left; width:50%; margin:0; padding:10px 0 0 20px; float:left;} 
+.footer p.rightt { text-align:right; width:30%; margin:0; padding:15px 20px 0 0; float:right;} 
+
+p.clr, .clr { clear:both; padding:0; margin:0; background:none;}
+li.bg, .bg { clear:both; border-top:1px solid #dfdfdf; padding:0; margin:10px 0; background:none; line-height:0;}

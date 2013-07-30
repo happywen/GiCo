@@ -2,11 +2,43 @@
 <head>
 	<meta name="owner" content="happywen">
 	<meta name="repo" content="happywen.github.com">
+	<link href="style.css" rel="stylesheet" type="text/css" />
 	<script src="lib/OAuth.js"></script>
+    <script src="lib/jquery-1.10.2.min.js"></script>
+    <script src="lib/jquery.cookie.js"></script>
 </head>
 <body>
-	<div class="comment"></div>
-	<script src="lib/jquery-1.10.2.min.js"></script>
-	<script src="lib/gico.js"></script>
+	<div class="body">
+    	<div class="body_resize">
+			<div id="contactform">
+				
+					<div id="issuelist">
+					 
+				    </div>
+				   
+			   	 	<div class="comment">
+						<ol>
+							<li> 
+								<input type="image" name="loginbtn" id="loginbtn" src="images/login.jpg" style="display:none">
+							</li>
+							 <li>
+				              <label for="title">Title: </label>
+				              <input id="title" name="title" class="text" />
+				            </li>
+							<li>
+								  <label for="message">Issue: </label>
+					              <textarea id="message" name="message" rows="6" cols="50" style="display:none">
+					              	
+					              </textarea>
+					        </li>
+							<li class="buttons"> 
+								<input type="image" name="imageField" id="imageField" src="images/send.gif" style="display:none">
+							</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+        <script src="lib/gico.js"></script>
 </body>
 </html>
