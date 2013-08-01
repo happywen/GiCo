@@ -12,8 +12,9 @@ html { padding:0; margin:0;}
 .body { margin:0; padding:0 0 20px 0;}
 .body_resize { width:954px; margin:0 auto; padding:0 15px; border:1px solid #d4d4d4; background:#eee;}
 .body_resize h2 { font:normal 20px Arial, Helvetica, sans-serif; color:#282828; padding:5px 5px; margin:0; border-bottom:1px solid #dfdfdf;}
-.body_resize h3 { font:normal 20px Arial, Helvetica, sans-serif; color:#282828; padding:5px 5px; margin:0;}
-.body_resize h2 span { font:normal 11px Arial, Helvetica, sans-serif; color:#819e9c; padding:5px 0; margin:0;}
+.body_resize h3 { font:normal 10px Arial, Helvetica, sans-serif; color:#282828; padding:5px 5px; margin:0;}
+.body_resize h2 span { font:normal 11px Arial, Helvetica, sans-serif; color:#819e9c; padding:10px 0; margin:3;}
+.body_resize h3 span { font:normal 5px Arial, Helvetica, sans-serif; color:#819e9c; padding:6px 0; margin:3;}
 .body_resize p { font:normal 12px Arial, Helvetica, sans-serif; color:#747474; padding:10px 5px; margin:0; line-height:1.8em;}
 .body_resize p span { color:#819e9c;}
 .body_resize a { color:#ea3900; text-decoration: underline;}
